@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: #202020;
+    overflow: hidden;
+    cursor: url("cursor.png"), auto !important;
+}
+
+.header {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Monument Extended";
+    text-transform: uppercase;
+    color: white;
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+    width: 200%;
+    height: 200vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 0;
+}
+
+.block {
+    width: 400px;
+    height: 500px;
+    background: grey;
+    margin: 1em;
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.block:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.block-1 {
+    background: url("one.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-2 {
+    background: url("two.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-3 {
+    background: url("three.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-4 {
+    background: url("four.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-5 {
+    background: url("five.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-6 {
+    background: url("six.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-7 {
+    background: url("seven.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.block-8 {
+    background: url("eight.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}

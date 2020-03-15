@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project Page With Draggable Canvas</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/panzoom@8.7.3/dist/panzoom.min.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            Explore projects by dragging canvas
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="block block-1"></div>
+                <div class="block block-2"></div>
+                <div class="block block-3"></div>
+                <div class="block block-4"></div>
+                <div class="block block-5"></div>
+                <div class="block block-6"></div>
+            </div>
+            <div class="row">
+                <div class="block block-5"></div>
+                <div class="block block-6"></div>
+                <div class="block block-7"></div>
+                <div class="block block-8"></div>
+                <div class="block block-1"></div>
+                <div class="block block-2"></div>
+            </div>
+            <div class="row">
+                <div class="block block-1"></div>
+                <div class="block block-2"></div>
+                <div class="block block-3"></div>
+                <div class="block block-4"></div>
+                <div class="block block-5"></div>
+                <div class="block block-6"></div>
+            </div>
+            <div class="row">
+                <div class="block block-5"></div>
+                <div class="block block-6"></div>
+                <div class="block block-7"></div>
+                <div class="block block-8"></div>
+                <div class="block block-1"></div>
+                <div class="block block-2"></div>
+            </div>
+        </div>
+        <script>
+            var element = document.querySelector(".container");
+
+            panzoom(element, {
+                minZoom: 1,
+                maxZoom: 1
+            });
+        </script>
+    </body>
+</html>
